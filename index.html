@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="manifest" href="/favicons/manifest.json" /> -->
+
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="icon" href="img/icon2.png" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+
+    <script defer src="script.js"></script>
+    <title>kunal &mdash; Developer & Designer</title>
+  </head>
+  <body>
+    <header class="header sticky">
+      <div class="logo">
+        <a href="#"
+          ><img src="img/kunal.png" alt="logo of kunal" class="logo-img"
+        /></a>
+      </div>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a href="#hero-section" class="main-nav-link"> Home </a></li>
+          <li><a href="#about-section" class="main-nav-link"> About </a></li>
+          <li><a href="#skill-section" class="main-nav-link">Skills</a></li>
+          <li>
+            <a href="#education-section" class="main-nav-link">Education</a>
+          </li>
+          <li>
+            <a href="#project-section" class="main-nav-link">Projects</a>
+          </li>
+          <li>
+            <a href="#contact-section" class="main-nav-link nav-cta">
+              Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon
+          class="icon-mobile-nav nav-open"
+          name="menu-outline"
+        ></ion-icon>
+        <ion-icon
+          class="icon-mobile-nav nav-close"
+          name="close-outline"
+        ></ion-icon>
+      </button>
+    </header>
+    <section id="hero-section" class="section hero-section">
+      <div class="hero">
+        <div class="hero-text-box">
+          <span
+            >Hello! I am
+            <h1 class="name-heading">kunal Garg,</h1></span
+          >
+          <p class="hero-description">
+            Passionate Philomath <br />
+            based in Noida
+          </p>
+
+          <div class="button">
+            <a href="resume.pdf" target="_blank" download class="btn">
+              <ion-icon
+                name="cloud-download-outline"
+                class="btn-icon"
+              ></ion-icon>
+              <span class="btn-text">Download Resume</span></a
+            >
+          </div>
+        </div>
+
+        <div class="hero-img-box">
+          <img
+            src="img/hero-main.jpg"
+            data-src="img/hero-main-lazy.jpg"
+            alt="profile picture"
+            class="lazy-img hero-img"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about-section">
+      <div class="about-me">
+        <div class="about-img">
+          <img
+            class="lazy-img img-me"
+            src="img/aboutImg.jpg"
+            data-src="img/aboutImg-lazy.jpg"
+            alt="profile-pic"
+          />
+        </div>
+
+        <div class="about-text">
+          <span class="sub-heading">About Me</span>
+          <h2 class="heading-secondary about-heading">Developer & Designer</h2>
+          <p class="about-description">
+            Being an IT student, I love to code. Being a philomath , I love to
+            read books on personal finance, self-growth & psychology. Being a
+            freelance graphic designer, I love to create. Being a tutor, I love
+            to teach.
+          </p>
+          <a class="btn--know-more" target="_blank" href="resume.pdf">
+            Know More <span>&rarr;</span></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="section skill-section" id="skill-section">
+      <span class="sub-heading skill-heading">Skills</span>
+      <h2 class="heading-secondary what-i-do">What I can do?</h2>
+      <div class="container">
+        <div class="technical-skills">
+          <span class="sub-heading skill-subheading">Technical Skills</span>
+          <div class="skill">
+            <div class="skill-name">
+              <ion-icon class="skill-icon" name="logo-html5"></ion-icon
+              ><span>Html</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-per" per="80%" style="max-width: 80%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-name">
+              <ion-icon class="skill-icon" name="logo-css3"></ion-icon
+              ><span>css</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-per" per="40%" style="max-width: 40%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-name">
+              <ion-icon class="skill-icon" name="logo-javascript"></ion-icon
+              ><span>javascript</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-per" per="70%" style="max-width: 70%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">
+              <ion-icon class="skill-icon" name="logo-python"></ion-icon
+              ><span>python</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-per" per="60%" style="max-width: 60%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">
+              <ion-icon class="skill-icon" name="analytics"></ion-icon
+              ><span>data structures</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-per" per="80%" style="max-width: 80%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="professional-skills">
+          <span class="sub-heading skill-subheading skill-subheading-query"
+            >Professional Skills</span
+          >
+          <div class="skill">
+            <div class="skill-name">
+              <ion-icon class="skill-icon" name="color-fill"></ion-icon
+              ><span>adobe illustrator</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-per" per="60%" style="max-width: 60%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">
+              <ion-icon class="skill-icon" name="flash"></ion-icon>
+              <span>Touch typing</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-per" per="50wpm" style="max-width: 50%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">
+              <ion-icon class="skill-icon" name="list"></ion-icon
+              ><span>excel</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-per" per="basic" style="max-width: 40%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section education-section" id="education-section">
+      <div class="edu-title">
+        <h2 class="heading-secondary edu-heading">Education & Experience</h2>
+      </div>
+
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="slide-box">
+            <span class="edu-date">August 2021 - Present</span>
+            <div class="edu-description">
+              <h5 class="edu-header">Certified Tutor</h5>
+              <p>
+                I have experience of more than 1yr of teaching online.I have
+                expertise of teaching Maths
+              </p>
+              <strong>Filo Tutors</strong>
+            </div>
+          </div>
+        </div>
+        <div class="slide slide--2">
+          <div class="slide-box">
+            <span class="edu-date">July 2021- Present</span>
+            <div class="edu-description">
+              <h5 class="edu-header">Graphic Designer</h5>
+              <p>
+                I have an experience of making social media posts, logos and
+                youtube thumbnails with 10+ satisfied clients
+              </p>
+              <strong>Freelancer</strong>
+            </div>
+          </div>
+        </div>
+        <div class="slide slide--3">
+          <div class="slide-box">
+            <span class="edu-date">September 2022 - Present</span>
+            <div class="edu-description">
+              <h5 class="edu-header">Geeks for Geeks</h5>
+              <p>
+                I have been practicing problem solving at geeks for geeks and
+                improving and implementing coding skills in C++.
+              </p>
+              <strong>Geeks for Geeks</strong>
+            </div>
+          </div>
+        </div>
+        <div class="slide slide--4">
+          <div class="slide-box">
+            <span class="edu-date">2020 - Present</span>
+            <div class="edu-description">
+              <h5 class="edu-header">Pursuing B.Tech</h5>
+              <p>
+                I am currently pursuing btech degree in Information Technology
+                from JSS Acadmey of Technical Education, Noida.
+              </p>
+              <strong>Dr. APJ Adbul Kalam University</strong>
+            </div>
+          </div>
+        </div>
+        <div class="slide slide--5">
+          <div class="slide-box">
+            <span class="edu-date">2018</span>
+            <div class="edu-description">
+              <h5 class="edu-header">High School</h5>
+              <p>
+                I have completed my High School from S.D. Public School and
+                secured 96% marks.
+              </p>
+              <strong>CBSE</strong>
+            </div>
+          </div>
+        </div>
+        <div class="slide slide--6">
+          <div class="slide-box">
+            <span class="edu-date">2020</span>
+            <div class="edu-description">
+              <h5 class="edu-header">Senior Secondary School</h5>
+              <p>
+                I have completed my SSC from S.D. Public School and secured 96%
+                marks.
+              </p>
+              <strong>CBSE</strong>
+            </div>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section project-section" id="project-section">
+      <span class="sub-heading project-heading">My Work</span>
+      <h2 class="heading-secondary projects">Projects</h2>
+
+      <div class="work">
+        <div class="work-list">
+          <img src="img/bankist.jpg" alt="bank application" />
+          <div class="work-details">
+            <h2 class="project-title">Bankist Application</h2>
+            <p class="project-description">
+              A prototype of banking website which helps you transfer money,
+              request loan and delete current account with authentication.
+            </p>
+            <a href="https://bankist.netlify.app" target="_blank"
+              ><ion-icon name="link-outline"></ion-icon
+            ></a>
+          </div>
+        </div>
+
+        <div class="work-list">
+          <img src="img/mapty.jpg" alt="location mapping website" />
+          <div class="work-details">
+            <h2 class="project-title">Mapty - Location Mapping WebApp</h2>
+            <p class="project-description">
+              Mapty helps you mark your location on real world map. It helps to
+              set position of starting and finishing point of your exercise.
+            </p>
+            <a href="https://mapty-gkunal05.netlify.app" target="_blank"
+              ><ion-icon name="link-outline"></ion-icon
+            ></a>
+          </div>
+        </div>
+
+        <div class="work-list">
+          <img src="img/omnifood.jpg" alt="food website" />
+          <div class="work-details">
+            <h2 class="project-title">A Food Plan Website</h2>
+            <p class="project-description">
+              A static food website which gives an overview of a diet food plan
+              website should look like.
+            </p>
+            <a href="https://omnifood-gkunal05.netlify.app" target="_blank"
+              ><ion-icon name="link-outline"></ion-icon
+            ></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="see-more-btn">See More</a>
+    </section>
+    <section class="section contact-section" id="contact-section">
+      <span class="sub-heading contact-subheads">Get in touch</span>
+      <h2 class="heading-secondary contact-subheads">Contact Me</h2>
+
+      <div class="contact-me">
+        <div class="contact-links">
+          <span class="sub-heading contact-subheads">Talk to Me</span>
+
+          <div class="contact-link-box">
+            <ion-icon name="mail" class="contact-icon"></ion-icon>
+            <h3>Mail</h3>
+            <a href="mailto:kunalg5802@gmail.com" class="contact-info"
+              >kunalg5802@gmail.com</a
+            >
+          </div>
+
+          <div class="contact-link-box">
+            <ion-icon class="contact-icon" name="logo-whatsapp"></ion-icon>
+            <h3>WhatsApp</h3>
+            <a
+              href="https://api.whatsapp.com/send/?phone=%2B917217288500&text&app_absent=0"
+              target="_blank"
+              class="contact-info"
+              >+91 7217288500</a
+            >
+          </div>
+        </div>
+
+        <div class="form">
+          <span class="sub-heading contact-subheads">Write to Me</span>
+          <div class="cta-form">
+            <form name="write-to-me" netlify class="contact-form">
+              <div class="contact-div">
+                <label class="contact-tag" for="name">Name</label>
+                <input
+                  name="name"
+                  class="contact-input"
+                  placeholder="Insert your name"
+                  type="text"
+                  id="name"
+                  required
+                />
+              </div>
+
+              <div class="contact-div">
+                <label class="contact-tag" for="email">Email</label>
+                <input
+                  name="email"
+                  class="contact-input"
+                  placeholder="Insert your email"
+                  type="email"
+                  id="email"
+                  required
+                />
+              </div>
+
+              <div class="contact-div">
+                <label class="contact-tag" for="Message">Message</label>
+                <textarea
+                  name="message"
+                  class="contact-input"
+                  placeholder="write your message"
+                  id="Message"
+                  required
+                ></textarea>
+              </div>
+
+              <input type="submit" value="Submit" class="btn-form" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer section">
+      <div class="footer-container">
+        <div class="nav-footer">
+          <ul class="footer-list">
+            <li class="footer-list-item"><a href="#about-section">About</a></li>
+            <li class="footer-list-item">
+              <a href="resume.pdf" target="_blank">Resume</a>
+            </li>
+            <li class="footer-list-item">
+              <a href="#contact-section">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="social-media">
+          <a
+            href="https://instagram.com/gkunal05?igshid=YmMyMTA2M2Y="
+            class="social-link"
+          >
+            <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+          </a>
+          <a
+            href="https://twitter.com/gkunal05?t=AM1GjdaQk8P1nZ3bgkm7SQ&s=09"
+            class="social-link"
+          >
+            <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/kunal-garg-4b9182203"
+            class="social-link"
+          >
+            <ion-icon class="social-icon" name="logo-linkedin"></ion-icon>
+          </a>
+        </div>
+        <p class="copyright-description">
+          Copyright &copy; 2022, All rights reserved. Created by KUNAL GARG
+        </p>
+      </div>
+    </footer>
+    <!-- <script defer src="script.js"></script> -->
+  </body>
+</html>

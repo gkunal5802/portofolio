@@ -1,0 +1,83 @@
+SECTIONS
+
+Home --> header/hero section
+About me 
+Services/ skills
+Resume/ Experience & Education
+Contact me form 
+footer
+
+primary colors: green and black
+
+
+HERO SECTION
+
+hello, I'm KUNAL GARG
+I am PASSIONATE SELF LEARNER based in Noida.
+
+
+
+ABOUT ME
+
+1. philomath
+2. Enthusiast coder
+3. freelance graphic desinger
+4. self-employed certified filo tutor.
+5. Reads books of self-growth personal finance and psychology
+
+
+SKILLS/ SERVICES
+
+
+What I do?
+
+1. frontend languages- html, css
+2. data structures in c
+3. python programming
+4. adobe illustrator
+5. freelance graphic designer
+6. touch typing (avg speed 50wpm)
+7. microsoft excel basic
+
+
+EDUCATION & EXPERIENCE
+
+
+2018 High school - 96%
+2020 senior secondary school - 96%
+till date pursuing btech
+1 year experience of teaching at filo
+10+ satisfied clients.
+
+
+CONTACT ME
+
+
+name
+email
+subject
+
+
+
+FOOTER
+
+links to insta twitter linkedin
+email
+
+
+
+RESOURCES REQUIRED 
+icons of social media
+profile photo
+layout
+
+inspiration: ojieame.designs
+
+
+ 
+
+
+
+
+
+
